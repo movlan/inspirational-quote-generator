@@ -12,13 +12,13 @@ const nextConfig = {
       // Enabled by default.
       fileName: true,
       // Empty by default.
-      topLevelImportPaths: [],
+      // topLevelImportPaths: [],
       // Defaults to ["index"].
       meaninglessFileNames: ["index"],
       // Enabled by default.
       cssProp: true,
       // Empty by default.
-      namespace: "",
+      // namespace: "",
       // Not supported yet.
       minify: false,
       // Not supported yet.
@@ -30,4 +30,4 @@ const nextConfig = {
 }
 
 
-module.exports = nextConfig
+export default nextConfig;
